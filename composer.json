@@ -1,0 +1,21 @@
+{
+    "name": "cmhc/bloomfilter",
+    "description": "php实现的布隆过滤器，存储方式包含文件和redis",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huchao",
+            "email": "hu_chao@139.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        
+    },
+    "autoload":{
+        "psr-4": {
+            "bloomfilter\\": "src/"
+        }
+    }
+}
